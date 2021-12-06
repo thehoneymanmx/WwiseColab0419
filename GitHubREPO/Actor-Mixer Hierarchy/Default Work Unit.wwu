@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Ali_Mejia_Cortes" ID="{7C54E6BD-F4E2-4A10-AD25-D99EF29F428C}" ShortID="761079165">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F054D769-62DE-4F17-85D1-BB2DFEE99B66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{42E5DEDC-1C58-418E-BB87-C5C33CF14083}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" ShortID="891600938">
+							<Language>SFX</Language>
+							<AudioFile>Alarms, Bell, School, Ring SND0342.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
