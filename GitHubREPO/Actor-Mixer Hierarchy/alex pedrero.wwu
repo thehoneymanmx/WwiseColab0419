@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE182480-06E0-4E54-9B06-888FD600567A}" SchemaVersion="103" RootDocumentID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" ParentDocumentID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}">
+	<AudioObjects>
+		<WorkUnit Name="alex pedrero" ID="{CE182480-06E0-4E54-9B06-888FD600567A}" OwnerID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Alex_Pedrero_Rosado" ID="{762324A0-5DB3-43D4-8DE9-1D3B11EB3B38}" ShortID="670648834">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F054D769-62DE-4F17-85D1-BB2DFEE99B66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{42E5DEDC-1C58-418E-BB87-C5C33CF14083}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AP - TROUBLE VOX" ID="{5A03CE0B-9C9D-4282-87C9-237D58BF72CB}">
+							<Language>SFX</Language>
+							<AudioFile>AP - TROUBLE VOX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="489228121"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="AP - TROUBLE VOX" ID="{5A03CE0B-9C9D-4282-87C9-237D58BF72CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

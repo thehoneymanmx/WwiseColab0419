@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" SchemaVersion="103">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{402B9FBE-965D-4FAC-90BB-52ECC218840B}" PersistMode="Standalone">
 			<ChildrenList>
@@ -13,15 +13,27 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" ShortID="891600938">
+						<AudioFileSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}">
 							<Language>SFX</Language>
 							<AudioFile>Alarms, Bell, School, Ring SND0342.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="891600938"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="AP - TROUBLE VOX" ID="{FFA30813-732C-4B2D-9CEF-54DD3475DF8E}">
+							<Language>SFX</Language>
+							<AudioFile>AP - TROUBLE VOX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="489228121"/>
+							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="Alarms, Bell, School, Ring SND0342" ID="{B8910E90-B31E-4A17-8355-CA142F9C55D5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="alex pedrero" ID="{CE182480-06E0-4E54-9B06-888FD600567A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

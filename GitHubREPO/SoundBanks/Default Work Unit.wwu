@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{72F8F868-E098-4E2E-962C-9B0D5C66DF53}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{72F8F868-E098-4E2E-962C-9B0D5C66DF53}" SchemaVersion="103">
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{72F8F868-E098-4E2E-962C-9B0D5C66DF53}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Lista" ID="{D4DE7A0C-3CBF-4AA6-A1DD-C76A2AEB7038}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Ali" ID="{9FC85831-8C7B-48BB-9E1B-F27A924C7689}" WorkUnitID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Ali" ID="{9FC85831-8C7B-48BB-9E1B-F27A924C7689}" WorkUnitID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_alejandro" ID="{460A01AA-0574-4DB3-9EAE-51335440C084}" WorkUnitID="{9E312AB0-D725-4A4C-AFDA-203CCD8A1E1C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
